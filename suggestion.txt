@@ -1,0 +1,15 @@
+from an article the suggested columns to remove
+
+from  *cox-violent-parsed*  dataset
+['id', 'first', 'last', 'in_custody', 'vr_charge_desc', 'r_case_number', 'vr_charge_degree', 
+                   'c_offense_date', 'c_case_number', 'r_offense_date', 'juv_other_count', 'end', 'event', 
+                   'screening_date', 'start', 'juv_misd_count', 'juv_fel_count', 'r_days_from_arrest', 
+                   'r_charge_degree', 'days_b_screening_arrest', 'vr_case_number', 'priors_count.1', 'r_jail_out', 
+                   'c_arrest_date', 'r_charge_desc', 'r_jail_in', 'violent_recid', 'decile_score.1', 
+                   'vr_offense_date', 'out_custody']
+
+
+
+another article (the suggested columns to remove)
+ *cox-violent-parsed*
+['last','first','out_custody','in_custody','c_offense_date','decile_score.1','priors_count.1','c_case_number','days_b_screening_arrest','start','end','event','screening_date','c_case_number','juv_other_count','juv_misd_count','juv_fel_count','r_days_from_arrest','id','r_charge_degree','r_offense_date', 'vr_case_number','r_case_number','r_jail_out','c_arrest_date','r_charge_desc','r_jail_in', 'violent_recid','vr_charge_degree','vr_offense_date','vr_charge_desc']

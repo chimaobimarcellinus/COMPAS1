@@ -1,0 +1,7 @@
+fontsize=15, fontweight='bold'
+
+# Choose a colormap
+cmap = plt.get_cmap('tab20c')
+
+categories = df_unique_name.race.unique()
+colors = cmap(np.linspace(0, 1, len(categories)))

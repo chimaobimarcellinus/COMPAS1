@@ -1,0 +1,47 @@
+SN------Variables------Details
+
+1 name; The name of the defendant or individual.
+
+2 sex; Gender or sex of the defendant (e.g., Male, Female).
+
+3 dob; Date of birth of the defendant.
+
+4 age; Age of the defendant at the time of assessment.
+
+5 age_cat; Categorized age group of the defendant (e.g., "Less than 25", "25-45", "Greater than 45").
+
+6 race; Race or ethnicity of the defendant (e.g., Caucasian, African-American, Hispanic, etc.).
+
+7 decile_score; Risk score assigned by the COMPAS algorithm, indicating the defendant's perceived risk of recidivism (ranges typically from 1 to 10, with 10 being the highest risk).
+
+8 priors_count; Number of prior criminal offenses or counts.
+
+9 c_jail_in; Date and time when the defendant was admitted to jail.
+
+10 c_jail_out; Date and time when the defendant was released from jail.
+
+11 c_days_from_compas; Number of days between the COMPAS assessment and the defendant's jail admission.
+
+12 c_charge_degree; Degree of criminal charge (e.g., Felony, Misdemeanor).
+
+13 c_charge_desc; Description of the criminal charge.
+
+14 is_recid; Binary indicator (0 or 1) whether the defendant was recidivated within a specific time frame.
+
+15 is_violent_recid; Binary indicator (0 or 1) whether the defendant's recidivism was violent in nature.
+
+16 type_of_assessment; Type of assessment conducted (e.g., Pretrial, Risk of Violence).
+
+17 score_text Textual representation of the risk score (e.g., "Low", "Medium", "High").
+
+18 screening_date; Date of the assessment screening.
+
+19 v_type_of_assessment; Type of violent risk assessment conducted.
+
+20 v_decile_score; Risk score assigned by the violent risk assessment.
+
+21 v_score_text; extual representation of the violent risk score.
+
+22 v_screening_date; Date of the violent risk assessment screening.
+
+23 days_in_jail; Days spent in jail.
